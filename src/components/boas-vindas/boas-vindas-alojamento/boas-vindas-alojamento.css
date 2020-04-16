@@ -1,0 +1,25 @@
+#alojamento {
+  overflow: hidden;
+}
+
+.section-bg {
+  background: #eff5f5;
+}
+
+#alojamento p {
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#alojamento h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+}
+
+#alojamento p {
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 30px;
+}

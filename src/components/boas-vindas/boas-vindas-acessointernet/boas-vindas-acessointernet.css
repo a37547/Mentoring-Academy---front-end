@@ -1,0 +1,31 @@
+#acessointernet {
+  overflow: hidden;
+}
+
+.section-bg {
+  background: #eff5f5;
+}
+
+#acessointernet p {
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#acessointernet h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}

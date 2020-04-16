@@ -1,0 +1,24 @@
+#matriculas {
+  overflow: hidden;
+}
+
+.section-bg {
+  background: #eff5f5;
+}
+
+#matriculas p {
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#matriculas h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+}
+
+a {
+  color: #92278f;
+  transition: 0.5s;
+}

@@ -1,0 +1,16 @@
+#formacao {
+  overflow: hidden;
+}
+
+#formacao .features-row {
+  padding: 60px 0 30px 0;
+}
+
+#formacao .advanced-feature-img-right {
+  max-width: 585px;
+  max-height: 401px;
+  visibility: visible;
+  animation-name: fadeInRight;
+  float: right;
+  padding: 0 0 30px 30px;
+}
