@@ -13,7 +13,11 @@ const Footer = () => {
           <div className="col-lg-9 text-lg-right text-right">
             <div className="copyright">
               Template:{" "}
-              <a href="https://bootstrapmade.com/" target="_blank">
+              <a
+                href="https://bootstrapmade.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 BootstrapMade
               </a>
             </div>

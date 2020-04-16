@@ -20,7 +20,11 @@ const AcessoInternet = () => {
               <p>
                 {" "}
                 Para ativar a conta acede ao endereço:{" "}
-                <a href="http://myconfig.ipb.pt" target="_blank">
+                <a
+                  href="http://myconfig.ipb.pt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://myconfig.ipb.pt
                 </a>{" "}
                 e clica na ligação da página principal: NOVOS ALUNOS: Active
@@ -63,7 +67,11 @@ const AcessoInternet = () => {
               <p>
                 A configuração para outros sistemas operativos pode ser
                 consultada na página dos serviços de informática:{" "}
-                <a href=">http://www.ipb.pt/si" target="_blank">
+                <a
+                  href=">http://www.ipb.pt/si"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/si
                 </a>{" "}
                 no menu Rede Wireless
@@ -71,14 +79,22 @@ const AcessoInternet = () => {
               <h4>Email</h4>
               <p>
                 Podes consultar o email através do browser no endereço:{" "}
-                <a href="https://webmail.alunos.ipb.pt" target="_blank">
+                <a
+                  href="https://webmail.alunos.ipb.pt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   https://webmail.alunos.ipb.pt
                 </a>
               </p>
               <p>
                 Também podes configurar um cliente de email para teres um acesso
                 permanente ao email. No endereço{" "}
-                <a href="http://www.ipb.pt/go/i410" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/i410"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/go/i410
                 </a>{" "}
                 podes encontrar manuais de ajuda de configuração do cliente de
@@ -100,14 +116,22 @@ const AcessoInternet = () => {
               <p>
                 É necessário ter configurado o acesso por VPN se por exemplo
                 pretenderes usar a Bibloteca do Conhecimento Online(
-                <a href="http://www.b-on.pt" target="_blank">
+                <a
+                  href="http://www.b-on.pt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   www.b-on.pt)
                 </a>{" "}
                 fora do campus do IPB para realizares trabalhos de investigação.
               </p>
               <p>
                 Instruções de configuração disponivel em:{" "}
-                <a href="http://www.ipb.pt/go/e511" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/e511"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/go/e511
                 </a>
               </p>

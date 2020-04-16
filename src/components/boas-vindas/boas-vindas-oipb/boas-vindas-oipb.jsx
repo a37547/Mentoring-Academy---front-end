@@ -23,7 +23,11 @@ const OIPB = () => {
                 <h2>O IPB</h2>
                 <p>
                   O Instituto Politécnico de Bragança (IPB) (
-                  <a href="http://www.ipb.pt" target="_blank">
+                  <a
+                    href="http://www.ipb.pt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     www.ipb.pt
                   </a>
                   ) foi criado em 1983. Desde essa data, fruto da contribuição
@@ -43,21 +47,33 @@ const OIPB = () => {
                   <li>
                     <i className="ion-android-checkmark-circle"></i> Escola
                     Superior Agrária (ESA) -{" "}
-                    <a href="http://www.esa.ipb.pt" target="_blank">
+                    <a
+                      href="http://www.esa.ipb.pt"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       www.esa.ipb.pt
                     </a>
                   </li>
                   <li>
                     <i className="ion-android-checkmark-circle"></i> Escola
                     Superior de Educação (ESE) -{" "}
-                    <a href="http://www.ese.ipb.pt" target="_blank">
+                    <a
+                      href="http://www.ese.ipb.pt"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       www.ese.ipb.pt
                     </a>
                   </li>
                   <li>
                     <i className="ion-android-checkmark-circle"></i> Escola
                     Superior de Tecnologia e de Gestão (ESTiG) -{" "}
-                    <a href="http://www.estig.ipb.pt" target="_blank">
+                    <a
+                      href="http://www.estig.ipb.pt"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       www.estig.ipb.pt
                     </a>
                   </li>
@@ -65,14 +81,22 @@ const OIPB = () => {
                     <i className="ion-android-checkmark-circle"></i> Escola
                     Superior de Comunicação, Administração e Turismo de
                     Mirandela (EsACT) -{" "}
-                    <a href="http://www.esact.ipb.pt" target="_blank">
+                    <a
+                      href="http://www.esact.ipb.pt"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       www.esact.ipb.pt
                     </a>
                   </li>
                   <li>
                     <i className="ion-android-checkmark-circle"></i> Escola
                     Superior de Saúde de Bragança (ESSa) -{" "}
-                    <a href="http://www.essa.ipb.pt" target="_blank">
+                    <a
+                      href="http://www.essa.ipb.pt"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       www.essa.ipb.pt
                     </a>
                   </li>

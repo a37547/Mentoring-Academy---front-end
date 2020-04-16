@@ -39,9 +39,7 @@ const Navbar = () => {
               <a href="#more-features">Plataforma</a>
             </li>
             <li>
-              <a href="#">
-                <Link to={"/entrar"}>Entrar/Registar</Link>
-              </a>
+              <Link to={"/entrar"}>Entrar/Registar</Link>
             </li>
           </ul>
         </nav>

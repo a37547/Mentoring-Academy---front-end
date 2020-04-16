@@ -56,7 +56,11 @@ const ComoChegar = () => {
                   <li>
                     <i className="ion-android-checkmark-circle"></i> Rede
                     Expressos:{" "}
-                    <a href="https://www.rede-expressos.pt" target="_blank">
+                    <a
+                      href="https://www.rede-expressos.pt"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       rede-expressos.pt
                     </a>
                   </li>
@@ -66,6 +70,7 @@ const ComoChegar = () => {
                     <a
                       href="https://www.santosviagensturismo.pt"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       www.santosviagensturismo.pt
                     </a>
@@ -99,6 +104,7 @@ const ComoChegar = () => {
                       href="https://www.cm-braganca.pt/pages/114"
                       target="_blank"
                       className="get-started-btn"
+                      rel="noopener noreferrer"
                     >
                       Horários dos STUB
                     </a>
@@ -117,6 +123,7 @@ const ComoChegar = () => {
                   <img
                     className="advanced-feature-img-right wow fadeInRight"
                     src={mapa_campus}
+                    alt=""
                     //style="visibility: hidden; animation-name: none;"
                   />
                   <p>
@@ -124,6 +131,7 @@ const ComoChegar = () => {
                       href="mapa_ipb.pdf"
                       target="_blank"
                       className="get-started-btn"
+                      rel="noopener noreferrer"
                     >
                       Download do mapa
                     </a>

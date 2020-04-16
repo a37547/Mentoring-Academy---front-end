@@ -25,7 +25,11 @@ const PlataformasEletronicas = () => {
                 </p>
                 <p>
                   Endereço dos serviços online:{" "}
-                  <a href="http://online.ipb.pt" target="_blank">
+                  <a
+                    href="http://online.ipb.pt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://online.ipb.pt
                   </a>
                 </p>
@@ -50,7 +54,11 @@ const PlataformasEletronicas = () => {
                 </p>
                 <p>
                   Endereço do IPB.Virtual:{" "}
-                  <a href="www.virtual.ipb.pt" target="_blank">
+                  <a
+                    href="www.virtual.ipb.pt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     www.virtual.ipb.pt
                   </a>
                 </p>
@@ -67,34 +75,58 @@ const PlataformasEletronicas = () => {
                   Horários/Calendários são:
                   <br />
                   ESA:{" "}
-                  <a href="http://www.ipb.pt/go/e460" target="_blank">
+                  <a
+                    href="http://www.ipb.pt/go/e460"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://www.ipb.pt/go/e460
                   </a>
                   <br />
                   ESTiG:{" "}
-                  <a href="http://www.ipb.pt/go/r777" target="_blank">
+                  <a
+                    href="http://www.ipb.pt/go/r777"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://www.ipb.pt/go/r777
                   </a>
                   <br />
                   ESE:{" "}
-                  <a href="http://www.ipb.pt/go/j190" target="_blank">
+                  <a
+                    href="http://www.ipb.pt/go/j190"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://www.ipb.pt/go/j190
                   </a>
                   <br />
                   ESACT:{" "}
-                  <a href="http://www.ipb.pt/go/o816" target="_blank">
+                  <a
+                    href="http://www.ipb.pt/go/o816"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://www.ipb.pt/go/o816
                   </a>
                   <br />
                   ESSa:{" "}
-                  <a href="http://www.ipb.pt/go/o794" target="_blank">
+                  <a
+                    href="http://www.ipb.pt/go/o794"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://www.ipb.pt/go/o794
                   </a>
                   <br />
                 </p>
                 <p>
                   Na plataforma de sumários (
-                  <a href="http://sumarios.ipb.pt" target="_blank">
+                  <a
+                    href="http://sumarios.ipb.pt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://sumarios.ipb.pt
                   </a>
                   ) podes consultar o horário individual (das unidades
@@ -125,7 +157,11 @@ const PlataformasEletronicas = () => {
                   escola. Consulta no site da tua escola:
                   <br />
                   ESA:{" "}
-                  <a href="https://esa.ipb.pt/regulamentos.php" target="_blank">
+                  <a
+                    href="https://esa.ipb.pt/regulamentos.php"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     https://esa.ipb.pt/regulamentos.php
                   </a>
                   <br />
@@ -133,6 +169,7 @@ const PlataformasEletronicas = () => {
                   <a
                     href="http://www.estig.ipb.pt/index.php/estig/estudar-na-estig/informacao/regulamentos"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     http://www.estig.ipb.pt/index.php/estig/estudar-na-estig/informacao/regulamentos
                   </a>
@@ -141,6 +178,7 @@ const PlataformasEletronicas = () => {
                   <a
                     href="http://esact.ipb.pt/index.php/esact/alunos/informacao/regulamentos"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     http://esact.ipb.pt/index.php/esact/alunos/informacao/regulamentos
                   </a>
@@ -149,6 +187,7 @@ const PlataformasEletronicas = () => {
                   <a
                     href="http://www.ese.ipb.pt/index.php/ese/estudar-na-ese/regulamentos"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     http://www.ese.ipb.pt/index.php/ese/estudar-na-ese/regulamentos
                   </a>
@@ -157,13 +196,18 @@ const PlataformasEletronicas = () => {
                   <a
                     href="http://www.essa.ipb.pt/index.php/essa/alunos/regulamentos"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     http://www.essa.ipb.pt/index.php/essa/alunos/regulamentos
                   </a>
                 </p>
                 <p>
                   A plataforma de sumários está disponível no endereço:{" "}
-                  <a href="http://sumarios.ipb.pt" target="_blank">
+                  <a
+                    href="http://sumarios.ipb.pt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://sumarios.ipb.pt
                   </a>
                 </p>
@@ -176,7 +220,11 @@ const PlataformasEletronicas = () => {
                 </p>
                 <p>
                   O endereço do guia ECTS é:{" "}
-                  <a href="www.ipb.pt/guiaects" target="_blank">
+                  <a
+                    href="www.ipb.pt/guiaects"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     www.ipb.pt/guiaects
                   </a>
                 </p>
@@ -192,7 +240,11 @@ const PlataformasEletronicas = () => {
                 <p>
                   O Sistema de Impressão encontra-se integrado com a Conta
                   Cartão do IPB (
-                  <a href="http://online.ipb.pt" target="_blank">
+                  <a
+                    href="http://online.ipb.pt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://online.ipb.pt
                   </a>
                   ), podendo os estudantes efetuar carregamentos na conta Cartão
@@ -203,7 +255,11 @@ const PlataformasEletronicas = () => {
                 <p>
                   Para instalar o cliente de impressão para Windows acede ao
                   endereço:{" "}
-                  <a href="https://cloud.ipb.pt/d/363a71b945/" target="_blank">
+                  <a
+                    href="https://cloud.ipb.pt/d/363a71b945/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     https://cloud.ipb.pt/d/363a71b945/
                   </a>
                 </p>
@@ -212,6 +268,7 @@ const PlataformasEletronicas = () => {
                   <a
                     href="http://portal3.ipb.pt/index.php/pt/si/sistema-de-impressao"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     www.ipb.pt/si
                   </a>
@@ -222,7 +279,11 @@ const PlataformasEletronicas = () => {
                 <p>
                   As senhas de refeição da Cantina são adquiridas nos Serviços
                   Online:
-                  <a href="http://online.ipb.pt" target="_blank">
+                  <a
+                    href="http://online.ipb.pt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://online.ipb.pt
                   </a>
                 </p>
@@ -235,6 +296,7 @@ const PlataformasEletronicas = () => {
                   <a
                     href="http://sas.ipb.pt/index.php/sas/servicos/alimentacao"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     http://sas.ipb.pt/index.php/sas/servicos/alimentacao
                   </a>
@@ -253,6 +315,7 @@ const PlataformasEletronicas = () => {
                   <a
                     href="https://www.microsoft.com/pt-pt/education/products/office/default.aspx"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     https://www.microsoft.com/pt-pt/education/products/office/default.aspx
                   </a>
@@ -274,7 +337,11 @@ const PlataformasEletronicas = () => {
                 <p>
                   Para procurar o email e o número de gabinete de um professor,
                   acede ao portal do IPB em{" "}
-                  <a href="http://www.ipb.pt" target="_blank">
+                  <a
+                    href="http://www.ipb.pt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     www.ipb.pt
                   </a>{" "}
                   e do lado direito em Pesquisar Pessoas insere o nome do
@@ -286,7 +353,11 @@ const PlataformasEletronicas = () => {
                   professores no site da escola em Horários/Calendários:
                 </p>
                 ESTiG:{" "}
-                <a href="http://www.ipb.pt/go/r777" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/r777"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/go/r777
                 </a>
                 <br />
@@ -300,7 +371,11 @@ const PlataformasEletronicas = () => {
                 <p>
                   No catálogo online podes consultar os livros que estão
                   disponíveis para requisição e em que prateleira se encontram:{" "}
-                  <a href="https://bibliotecas.ipb.pt/" target="_blank">
+                  <a
+                    href="https://bibliotecas.ipb.pt/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     https://bibliotecas.ipb.pt/
                   </a>
                 </p>
@@ -311,11 +386,19 @@ const PlataformasEletronicas = () => {
                 <p>
                   Para desenvolveres trabalhos académicos também podes pesquisar
                   no repositório científico digital do IPB em{" "}
-                  <a href="https://bibliotecadigital.ipb.pt/" target="_blank">
+                  <a
+                    href="https://bibliotecadigital.ipb.pt/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     https://bibliotecadigital.ipb.pt/
                   </a>{" "}
                   e na Biblioteca do Conhecimento Online b-on:{" "}
-                  <a href="https://www.b-on.pt/" target="_blank">
+                  <a
+                    href="https://www.b-on.pt/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     https://www.b-on.pt/
                   </a>
                 </p>
@@ -323,7 +406,11 @@ const PlataformasEletronicas = () => {
                   Nos Serviços de Documentação e Bibliotecas podes encontrar
                   outros recursos eletrónicos e serviços que te possam ajudar,
                   disponíveis no endereço:{" "}
-                  <a href="http://www.ipb.pt/bibliotecas" target="_blank">
+                  <a
+                    href="http://www.ipb.pt/bibliotecas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     http://www.ipb.pt/bibliotecas
                   </a>
                 </p>

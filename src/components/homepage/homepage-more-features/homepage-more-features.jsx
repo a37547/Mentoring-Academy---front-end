@@ -3,9 +3,12 @@ import React from "react";
 const MoreFeatures = () => {
   return (
     <section id="more-features" className="section-bg">
-      <a href="https://doodle.com/poll/f4etdykg2igr9m9t" target="_blank"></a>
       <div className="container">
-        <a href="https://doodle.com/poll/f4etdykg2igr9m9t" target="_blank">
+        <a
+          href="https://doodle.com/poll/f4etdykg2igr9m9t"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="section-header">
             <h3 className="section-title">
               Funcionalidades da Plataforma (em desenvolvimento)
@@ -18,15 +21,7 @@ const MoreFeatures = () => {
           </div>
         </a>
         <div className="row">
-          <a
-            href="https://doodle.com/poll/f4etdykg2igr9m9t"
-            target="_blank"
-          ></a>
           <div className="col-lg-6">
-            <a
-              href="https://doodle.com/poll/f4etdykg2igr9m9t"
-              target="_blank"
-            ></a>
             <div
               className="box wow fadeInLeft"
               //style="visibility: visible; animation-name: fadeInLeft;"
@@ -34,6 +29,7 @@ const MoreFeatures = () => {
               <a
                 href="https://doodle.com/poll/f4etdykg2igr9m9t"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="icon">
                   <i
@@ -43,11 +39,7 @@ const MoreFeatures = () => {
                 </div>
               </a>
               <h4 className="title">
-                <a
-                  href="https://doodle.com/poll/f4etdykg2igr9m9t"
-                  target="_blank"
-                ></a>
-                <a href="">Conexão entre as partes</a>
+                <a href="/#">Conexão entre as partes</a>
               </h4>
               <p className="description">
                 Mentores e mentorados assim como tutores e tutorados poderão
@@ -65,7 +57,7 @@ const MoreFeatures = () => {
                 <i className="ion-ios-stopwatch-outline"></i>
               </div>
               <h4 className="title">
-                <a href="">Marcação de reuniões</a>
+                <a href="/#">Marcação de reuniões</a>
               </h4>
               <p className="description">
                 O sistema permitirá o agendamento de reuniões entre as partes.
@@ -82,7 +74,7 @@ const MoreFeatures = () => {
                 <i className="ion-ios-bookmarks-outline"></i>
               </div>
               <h4 className="title">
-                <a href="">Material de apoio</a>
+                <a href="/#">Material de apoio</a>
               </h4>
               <p className="description">
                 Mentores e tutores poderão disponibilizar material de apoio aos
@@ -100,7 +92,7 @@ const MoreFeatures = () => {
                 <i className="ion-social-buffer-outline"></i>
               </div>
               <h4 className="title">
-                <a href="">Atividades, palestras e workshops</a>
+                <a href="/#">Atividades, palestras e workshops</a>
               </h4>
               <p className="description">
                 Serão disponibilizados atividades, palestras e workshops de

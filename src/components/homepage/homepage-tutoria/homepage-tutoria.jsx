@@ -97,6 +97,7 @@ const Tutoria = () => {
                   href="http://inqueritos.ipb.pt/?r=survey/index/sid/465916/lang/pt"
                   target="_blank"
                   className="get-started-btn"
+                  rel="noopener noreferrer"
                 >
                   Inscrição de Tutores
                 </a>

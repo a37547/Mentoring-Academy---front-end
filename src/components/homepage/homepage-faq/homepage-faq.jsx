@@ -1,5 +1,4 @@
 import React from "react";
-import { IoIosAdd } from "react-icons/io";
 
 const Faq = () => {
   return (
@@ -26,6 +25,7 @@ const Faq = () => {
                   href="http://inqueritos.ipb.pt/?r=survey/index/sid/465916/lang/pt"
                   className="link-faq"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   link
                 </a>
@@ -44,6 +44,7 @@ const Faq = () => {
                   href="href=http://inqueritos.ipb.pt/?r=survey/index/sid/571475/lang/pt"
                   className="link-faq"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   link
                 </a>

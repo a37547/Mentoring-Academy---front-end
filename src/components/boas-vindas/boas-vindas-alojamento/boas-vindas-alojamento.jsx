@@ -20,11 +20,15 @@ const Alojamento = () => {
               <p>
                 Procurar por anúncios em sites de classNameificados:
                 <br />
-                <a href="www.olx.pt" target="_blank">
+                <a href="www.olx.pt" target="_blank" rel="noopener noreferrer">
                   www.olx.pt
                 </a>
                 <br />
-                <a href="www.custojusto.pt" target="_blank">
+                <a
+                  href="www.custojusto.pt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   www.custojusto.pt
                 </a>
               </p>
@@ -35,6 +39,7 @@ const Alojamento = () => {
                 <a
                   href="https://www.facebook.com/groups/679998705398883/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://www.facebook.com/groups/679998705398883/
                 </a>
@@ -44,6 +49,7 @@ const Alojamento = () => {
                 <a
                   href="https://www.facebook.com/groups/825421167559767/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://www.facebook.com/groups/825421167559767/
                 </a>
@@ -54,6 +60,7 @@ const Alojamento = () => {
                 <a
                   href="https://www.facebook.com/Arrendar-quartos-em-Mirandela-781190408633364/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://www.facebook.com/Arrendar-quartos-em-Mirandela-781190408633364/
                 </a>
@@ -64,6 +71,7 @@ const Alojamento = () => {
                 <a
                   href="https://www.facebook.com/groups/217095715073135/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://www.facebook.com/groups/217095715073135/
                 </a>

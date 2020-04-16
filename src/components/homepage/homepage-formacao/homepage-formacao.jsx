@@ -31,6 +31,7 @@ const Formacao = () => {
                     <a
                       href="https://doodle.com/poll/f4etdykg2igr9m9t"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://doodle.com/poll/f4etdykg2igr9m9t
                     </a>
@@ -38,6 +39,7 @@ const Formacao = () => {
                   <a
                     href="https://doodle.com/poll/f4etdykg2igr9m9t"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <li>Ações Agendadas</li>
                     <li>
@@ -111,29 +113,11 @@ const Formacao = () => {
                     </li>
                   </a>
                 </ul>
-                <a
-                  href="https://doodle.com/poll/f4etdykg2igr9m9t"
-                  target="_blank"
-                ></a>
               </div>
-              <a
-                href="https://doodle.com/poll/f4etdykg2igr9m9t"
-                target="_blank"
-              ></a>
             </div>
-            <a
-              href="https://doodle.com/poll/f4etdykg2igr9m9t"
-              target="_blank"
-            ></a>
           </div>
-          <a
-            href="https://doodle.com/poll/f4etdykg2igr9m9t"
-            target="_blank"
-          ></a>
         </div>
-        <a href="https://doodle.com/poll/f4etdykg2igr9m9t" target="_blank"></a>
       </div>
-      <a href="https://doodle.com/poll/f4etdykg2igr9m9t" target="_blank"></a>
     </section>
   );
 };

@@ -43,6 +43,7 @@ const AssociacoesEstudantes = () => {
                     <a
                       href="https://www.facebook.com/aaipb/?epa=SEARCH_BOX"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://www.facebook.com/aaipb/?epa=SEARCH_BOX
                     </a>
@@ -59,6 +60,7 @@ const AssociacoesEstudantes = () => {
                     <a
                       href="https://www.facebook.com/AEESABOFFICIAL/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://www.facebook.com/AEESABOFFICIAL/
                     </a>
@@ -72,6 +74,7 @@ const AssociacoesEstudantes = () => {
                     <a
                       href="https://www.facebook.com/aeestigipb/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://www.facebook.com/aeestigipb/
                     </a>
@@ -85,6 +88,7 @@ const AssociacoesEstudantes = () => {
                     <a
                       href="https://www.facebook.com/AE-ESSa-IPB-1034340679918739/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://www.facebook.com/AE-ESSa-IPB-1034340679918739/
                     </a>
@@ -95,7 +99,11 @@ const AssociacoesEstudantes = () => {
                     Email: Aeeseb2019@hotmail.com
                     <br />
                     Página no Facebook:{" "}
-                    <a href="https://www.facebook.com/ae.eseb/" target="_blank">
+                    <a
+                      href="https://www.facebook.com/ae.eseb/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       https://www.facebook.com/ae.eseb/
                     </a>
                   </li>
@@ -108,6 +116,7 @@ const AssociacoesEstudantes = () => {
                     <a
                       href="https://www.facebook.com/AeEsactIpb/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://www.facebook.com/AeEsactIpb/
                     </a>
@@ -124,6 +133,7 @@ const AssociacoesEstudantes = () => {
                     <a
                       href="https://www.facebook.com/Associação-de-Estudantes-Africanos-em-Bragança-792518937438511/?__tn__=%2Cd%2CP-R&amp;eid=ARCPLpL_9sRQsDNjPP71oUMH9E5akVokHr-xQ60Rww3yJ1IsVYbneQZGgQ-C8Ct7ZVpt4_k-FDLAY_t1"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://www.facebook.com/Associação-de-Estudantes-Africanos-em-Bragança-792518937438511
                     </a>{" "}
@@ -131,6 +141,7 @@ const AssociacoesEstudantes = () => {
                     <a
                       href="https://www.facebook.com/teamaeab/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://www.facebook.com/teamaeab/{" "}
                     </a>
@@ -143,6 +154,7 @@ const AssociacoesEstudantes = () => {
                     <a
                       href="https://www.facebook.com/aebipb/?__tn__=KH-R&amp;eid=ARClG3VEob3EICWL84ZB6K9ucDBtL8fktsfwfbJ4nUoPRtz25nWJKW36uUon1K-xZpkFbg8h2a4iYrqy&amp;fref=mentions"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://www.facebook.com/aebipb/
                     </a>
@@ -155,6 +167,7 @@ const AssociacoesEstudantes = () => {
                       href="</a></li>
 "
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://www.facebook.com/ESNBraganca/
                     </a>
@@ -168,24 +181,37 @@ const AssociacoesEstudantes = () => {
                 </p>
                 <h5>Bragança</h5>
                 <h6>- Real Tuna Universitária de Bragança, RTUB.</h6>
-                <a href="http://rtub.alunos.ipb.pt/" target="_blank">
+                <a
+                  href="http://rtub.alunos.ipb.pt/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://rtub.alunos.ipb.pt/
                 </a>
                 <br />
                 <a
                   href="https://www.facebook.com/rtub.tuna.braganca"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://www.facebook.com/rtub.tuna.braganca
                 </a>
                 <br />
                 <br />
                 <h6>- Tuna Feminina do IPB, Tôna Tuna</h6>
-                <a href="http://www.tonatuna.alunos.ipb.pt/" target="_blank">
+                <a
+                  href="http://www.tonatuna.alunos.ipb.pt/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.tonatuna.alunos.ipb.pt/
                 </a>
                 <br />
-                <a href="https://www.facebook.com/TonaTunaIPB/" target="_blank">
+                <a
+                  href="https://www.facebook.com/TonaTunaIPB/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   https://www.facebook.com/TonaTunaIPB/
                 </a>
                 <br />
@@ -194,6 +220,7 @@ const AssociacoesEstudantes = () => {
                 <a
                   href="https://www.facebook.com/rausstunabraganca/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://www.facebook.com/rausstunabraganca/
                 </a>
@@ -203,6 +230,7 @@ const AssociacoesEstudantes = () => {
                 <a
                   href="https://www.facebook.com/UlissesCorreiaSilva/photos/basw.AbpKTHodV0ONtQqP_7mWVsY-0fwfBpqhLJn0fNfFMjB6MI0saQXLQPrY1E0zXXxP1hkuOosrnRFHytbY2Sr03HWoVc342p6w7qNgYR1xezVAQxeDawtF9YGpIO3H4Xp43YpPDAtVz-EKCDkw_4Y_pri5.2367463819944549.1766713640035119.1766713530035130.1766713383368478.1766713386701811/1766713386701811/?type=1&amp;theater"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://www.facebook.com/UlissesCorreiaSilva/
                 </a>
@@ -213,6 +241,7 @@ const AssociacoesEstudantes = () => {
                 <a
                   href="https://www.facebook.com/In-Vinus-Tuna-933396293420235/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://www.facebook.com/In-Vinus-Tuna-933396293420235/
                 </a>
@@ -222,6 +251,7 @@ const AssociacoesEstudantes = () => {
                 <a
                   href="https://www.facebook.com/tunamiraesact/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://www.facebook.com/tunamiraesact/
                 </a>

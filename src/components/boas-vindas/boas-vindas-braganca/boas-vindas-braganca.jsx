@@ -46,6 +46,7 @@ const Braganca = () => {
                     href="https://www.cm-braganca.pt/pages/302"
                     target="_blank"
                     className="get-started-btn"
+                    rel="noopener noreferrer"
                   >
                     Mais informação sobre Bragança
                   </a>
@@ -83,6 +84,7 @@ const Braganca = () => {
                     href="http://www.visitmirandela.com/pages/1003"
                     target="_blank"
                     className="get-started-btn"
+                    rel="noopener noreferrer"
                   >
                     Mais informação sobre Mirandela
                   </a>
@@ -92,7 +94,11 @@ const Braganca = () => {
                 <ul>
                   <li>
                     <i className="ion-android-checkmark-circle"></i>
-                    <a href="https://www.mogadouro.pt/" target="_blank">
+                    <a
+                      href="https://www.mogadouro.pt/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Mogadouro
                     </a>
                   </li>
@@ -101,6 +107,7 @@ const Braganca = () => {
                     <a
                       href="https://www.cm-carrazedadeansiaes.pt/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Carrazeda de Ansiães
                     </a>
@@ -110,31 +117,48 @@ const Braganca = () => {
                     <a
                       href="https://www.cm-macedodecavaleiros.pt/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Macedo de Cavaleiros
                     </a>
                   </li>
                   <li>
                     <i className="ion-android-checkmark-circle"></i>
-                    <a href="http://www.cm-moncorvo.pt/" target="_blank">
+                    <a
+                      href="http://www.cm-moncorvo.pt/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Torre de Moncorvo
                     </a>
                   </li>
                   <li>
                     <i className="ion-android-checkmark-circle"></i>
-                    <a href="https://valpacos.pt/" target="_blank">
+                    <a
+                      href="https://valpacos.pt/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Valpaços
                     </a>
                   </li>
                   <li>
                     <i className="ion-android-checkmark-circle"></i>
-                    <a href="https://www.chaves.pt/" target="_blank">
+                    <a
+                      href="https://www.chaves.pt/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Chaves
                     </a>
                   </li>
                   <li>
                     <i className="ion-android-checkmark-circle"></i>
-                    <a href="https://www.cm-vnfamalicao.pt/" target="_blank">
+                    <a
+                      href="https://www.cm-vnfamalicao.pt/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Vila Nova de Famalicão
                     </a>
                   </li>

@@ -58,6 +58,7 @@ const Capacitacao = () => {
                     href="http://www.ipb.pt"
                     target="_blank"
                     className="get-started-btn"
+                    rel="noopener noreferrer"
                   >
                     Mais informação sobre o IPB
                   </a>

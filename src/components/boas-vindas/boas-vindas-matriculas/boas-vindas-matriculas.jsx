@@ -39,6 +39,7 @@ const Matriculas = () => {
                 <a
                   href="http://portal3.ipb.pt/index.php/sa/informacao-academica/propinas-e-emolumentos"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {" "}
                   página
@@ -121,7 +122,11 @@ const Matriculas = () => {
               <br />
               <p>
                 Calendário académico do IPB completo:{" "}
-                <a href="http://www.ipb.pt/go/e130" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/e130"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Abrir calendário
                 </a>
               </p>
@@ -130,28 +135,48 @@ const Matriculas = () => {
                 curso no site da tua escola:
                 <br />
                 ESA:{" "}
-                <a href="http://www.ipb.pt/go/e130" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/e130"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/go/e130
                 </a>
                 (Só disponível o calendário geral)
                 <br />
                 ESTiG:{" "}
-                <a href="http://www.ipb.pt/go/r777" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/r777"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/go/r777
                 </a>
                 <br />
                 ESE:{" "}
-                <a href="http://www.ipb.pt/go/j190" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/j190"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/go/j190
                 </a>
                 <br />
                 ESACT:{" "}
-                <a href="http://www.ipb.pt/go/o816" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/o816"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/go/o816
                 </a>
                 <br />
                 ESSa:{" "}
-                <a href="http://www.ipb.pt/go/s398" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/s398"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/go/s398
                 </a>
                 <br />
@@ -206,7 +231,11 @@ const Matriculas = () => {
                 certificados, entre outros assuntos de ordem académica. Para
                 mais informaçãoes podes consultar na página dos Serviços
                 Académicos em{" "}
-                <a href="http://www.ipb.pt/sa" target="_blank">
+                <a
+                  href="http://www.ipb.pt/sa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   www.ipb.pt/sa
                 </a>
                 .

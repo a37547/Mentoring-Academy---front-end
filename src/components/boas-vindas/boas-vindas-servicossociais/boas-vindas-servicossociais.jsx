@@ -38,6 +38,7 @@ const ServicosSociais = () => {
                   <a
                     href="http://sas.ipb.pt/index.php/sas/servicos/bolsas"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     sas.ipb.pt/index.php/sas/servicos/bolsas
                   </a>
@@ -45,7 +46,11 @@ const ServicosSociais = () => {
                 <p>
                   {" "}
                   plataforma BeON (plataforma de candidatura a bolsa de estudo:{" "}
-                  <a href=">https://www.dges.gov.pt/wwwbeon/" target="_blank">
+                  <a
+                    href=">https://www.dges.gov.pt/wwwbeon/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     www.dges.gov.pt/wwwbeon/
                   </a>{" "}
                 </p>
@@ -53,7 +58,11 @@ const ServicosSociais = () => {
                   {" "}
                   Anúncios relativos a prazos são disponibilizados no portal dos
                   Serviços de Ação Social:{" "}
-                  <a href="http://www.sas.ipb.pt" target="_blank">
+                  <a
+                    href="http://www.sas.ipb.pt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     www.sas.ipb.pt
                   </a>
                 </p>
@@ -62,7 +71,11 @@ const ServicosSociais = () => {
                   A candidatura à Residência é feita em simultâneo com a
                   candidatura à Bolsa na plataforma BeON (plataforma de
                   candidatura a bolsa de estudo:{" "}
-                  <a href="https://www.dges.gov.pt/wwwbeon/" target="_blank">
+                  <a
+                    href="https://www.dges.gov.pt/wwwbeon/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     www.dges.gov.pt/wwwbeon/
                   </a>
                   ).
@@ -73,6 +86,7 @@ const ServicosSociais = () => {
                   <a
                     href="http://sas.ipb.pt/index.php/sas/servicos/alojamento/avisos"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     sas.ipb.pt/index.php/sas/servicos/alojamento/avisos
                   </a>
@@ -82,7 +96,11 @@ const ServicosSociais = () => {
                 com os serviços do IPB. Tem prioridade na atribuição da Bolsa de
                 Colaboração os estudantes que possuem Bolsa dos Serviços de Ação
                 Social. Mais informações disponíveis em:{" "}
-                <a href="http://www.ipb.pt/go/s257" target="_blank">
+                <a
+                  href="http://www.ipb.pt/go/s257"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   http://www.ipb.pt/go/s257
                 </a>{" "}
                 <p></p>
@@ -162,6 +180,7 @@ const ServicosSociais = () => {
                   <a
                     href="https://www.facebook.com/aaipb/?epa=SEARCH_BOX"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     https://www.facebook.com/aaipb/?epa=SEARCH_BOX
                   </a>
@@ -194,10 +213,9 @@ const ServicosSociais = () => {
                 <br />
                 <h6>Formato: </h6>• Sessões presenciais, extracurriculares, de
                 cerca de uma hora, ajustável diante das necessidades concretas
-                do grupo <br />
-                • Prevêem-se cerca de 8 sessões em grupos de 15/20 estudantes
-                ajustáveis de acordo com as necessidades concretas do grupo{" "}
-                <br />
+                do grupo <br />• Prevêem-se cerca de 8 sessões em grupos de
+                15/20 estudantes ajustáveis de acordo com as necessidades
+                concretas do grupo <br />
                 <br />
               </div>
             </div>

@@ -80,6 +80,7 @@ const Mentoria = () => {
                     href="http://inqueritos.ipb.pt/?r=survey/index/sid/571475/lang/pt"
                     target="_blank"
                     className="get-started-btn"
+                    rel="noopener noreferrer"
                   >
                     Inscrição de Mentores
                   </a>
