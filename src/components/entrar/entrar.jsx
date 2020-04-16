@@ -12,11 +12,11 @@ const Entrar = () => {
         <div className="login-form">
           <h5>Entrar</h5>
           <form action="">
-            <div className="email">
-              <input type="text" placeholder="Email" />
+            <div className="username">
+              <input type="text" placeholder="Username" />
             </div>
             <div className="password">
-              <input type="text" placeholder="Palavra-passe" />
+              <input type="password" placeholder="Palavra-passe" />
             </div>
             <button>Entrar</button>
           </form>

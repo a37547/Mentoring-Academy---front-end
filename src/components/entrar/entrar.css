@@ -8,7 +8,7 @@
 }
 
 .login-form {
-  height: 65%;
+  height: 55%;
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -22,10 +22,9 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 50%;
 }
 
-.email,
+.username,
 .password {
   display: flex;
   flex-direction: column;
