@@ -21,9 +21,6 @@ const Navbar = () => {
             //style="touch-action: pan-y;"
           >
             <li>
-              <a href="#intro">Início</a>
-            </li>
-            <li>
               <a href="#about">O Programa</a>
             </li>
             <li>
@@ -37,6 +34,12 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#more-features">Plataforma</a>
+            </li>
+            <li>
+              <a href="">Editar Conteúdo</a>
+            </li>
+            <li>
+              <a href="">Chat</a>
             </li>
             <li>
               <Link to={"/entrar"}>Entrar/Registar</Link>
