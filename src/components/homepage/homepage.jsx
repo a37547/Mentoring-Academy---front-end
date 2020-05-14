@@ -19,13 +19,13 @@ import Faq from "./homepage-faq/homepage-faq";
 import "./homepage-faq/homepage-faq.css";
 import Footer from "./homepage-footer/homepage-footer";
 import "./homepage-footer/homepage-footer.css";
-import Navbar from "../navbar/navbar";
+import NavigationBar from "../navbar/navbar";
 import "../navbar/navbar.css";
 
 const Homepage = () => {
   return (
     <React.Fragment>
-      <Navbar />
+      <NavigationBar />
       <Intro />
       <main id="main">
         <About />

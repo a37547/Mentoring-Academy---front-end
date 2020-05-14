@@ -1,54 +1,28 @@
 import React from "react";
 import logo from "../../assets/logo-mentoring-academy.png";
 import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 
-const Navbar = () => {
+const NavigationBar = () => {
   return (
-    <header id="header" className="header-fixed">
-      <div className="container">
-        <div id="logo" className="pull-left">
-          <Link to="/" className="scrollto hide-big-logo">
-            <img src={logo} alt="" />
-          </Link>
-          <a href="#intro">
-            <img src="images/logo.png" alt="" title="" />
-          </a>
-        </div>
-
-        <nav id="nav-menu-container">
-          <ul
-            className="nav-menu sf-js-enabled sf-arrows"
-            //style="touch-action: pan-y;"
-          >
-            <li>
-              <a href="#about">O Programa</a>
-            </li>
-            <li>
-              <a href="#mentoria">Mentorias</a>
-            </li>
-            <li>
-              <a href="#tutoria">Tutorias</a>
-            </li>
-            <li>
-              <a href="#formacao">Formação Pedagógica</a>
-            </li>
-            <li>
-              <a href="#more-features">Plataforma</a>
-            </li>
-            <li>
-              <a href="">Editar Conteúdo</a>
-            </li>
-            <li>
-              <a href="">Chat</a>
-            </li>
-            <li>
-              <Link to={"/entrar"}>Entrar/Registar</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <Navbar expand="lg" className="navbar-custom" variant="dark">
+      <Navbar.Brand className="logo" href="/">
+        Mentoring Academy
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="w-100 d-flex text-center justify-content-lg-between">
+          <Nav.Link href="#home">O Programa</Nav.Link>
+          <Nav.Link href="#link">Mentorias</Nav.Link>
+          <Nav.Link href="#link">Tutorias</Nav.Link>
+          <Nav.Link href="#link">Formação Pedagógica</Nav.Link>
+          <Nav.Link href="#link">Editar Conteúdo</Nav.Link>
+          <Nav.Link href="#link">Chat</Nav.Link>
+          <Nav.Link href="/entrar">Entrar/Registar</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default NavigationBar;
