@@ -2,7 +2,6 @@ import React from "react";
 import Intro from "./homepage-intro/homepage-intro";
 import "./homepage-intro/homepage-intro.css";
 import About from "./homepage-about/homepage-about";
-import "./homepage-about/homepage-about.css";
 import Mentoria from "./homepage-mentoria/homepage-mentoria";
 import "./homepage-mentoria/homepage-mentoria.css";
 import Tutoria from "./homepage-tutoria/homepage-tutoria";
