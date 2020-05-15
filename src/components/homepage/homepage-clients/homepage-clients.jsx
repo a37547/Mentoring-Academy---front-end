@@ -1,20 +1,14 @@
 import React from "react";
 import logoipb from "../../../assets/logo-ipb.png";
+import { Image, Row, Col } from "react-bootstrap";
 
 const Clients = () => {
   return (
-    <section id="clients">
-      <div className="container">
-        <div
-          className="row wow fadeInUp"
-          //style="visibility: visible; animation-name: fadeInUp;"
-        >
-          <div id="clientsImg" className="col-md-6">
-            <img src={logoipb} alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
+    <Row>
+      <Col col={12} className="d-flex justify-content-center">
+        <Image src={logoipb} alt="" fluid />
+      </Col>
+    </Row>
   );
 };
 
