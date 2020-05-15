@@ -3,7 +3,6 @@ import Intro from "./homepage-intro/homepage-intro";
 import "./homepage-intro/homepage-intro.css";
 import About from "./homepage-about/homepage-about";
 import Mentoria from "./homepage-mentoria/homepage-mentoria";
-import "./homepage-mentoria/homepage-mentoria.css";
 import Tutoria from "./homepage-tutoria/homepage-tutoria";
 import "./homepage-tutoria/homepage-tutoria.css";
 import Workshop from "./homepage-workshop/homepage-workshop";
