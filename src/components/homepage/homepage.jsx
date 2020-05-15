@@ -9,7 +9,6 @@ import Formacao from "./homepage-formacao/homepage-formacao";
 import MoreFeatures from "./homepage-more-features/homepage-more-features";
 import Clients from "./homepage-clients/homepage-clients";
 import Faq from "./homepage-faq/homepage-faq";
-import "./homepage-faq/homepage-faq.css";
 import Footer from "./homepage-footer/homepage-footer";
 import "./homepage-footer/homepage-footer.css";
 import NavigationBar from "../navbar/navbar";
