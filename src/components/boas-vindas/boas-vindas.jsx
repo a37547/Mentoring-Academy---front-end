@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./boas-vindas-header/boas-vindas-header";
 import "./boas-vindas-header/boas-vindas-header.css";
 import Indice from "./boas-vindas-indice/boas-vindas-indice";
+import "./boas-vindas-indice/boas-vindas-indice.css";
 import OIPB from "./boas-vindas-oipb/boas-vindas-oipb";
 import "./boas-vindas-oipb/boas-vindas-oipb.css";
 import Faq from "./boas-vindas-faq/boas-vindas-faq";
