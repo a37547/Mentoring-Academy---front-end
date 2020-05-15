@@ -30,12 +30,14 @@ import PlataformasEletronicas from "./boas-vindas-plataformaseletronicas/boas-vi
 import "./boas-vindas-plataformaseletronicas/boas-vindas-plataformaseletronicas.css";
 import Footer from "./boas-vindas-footer/boas-vindas-footer";
 import "./boas-vindas-footer/boas-vindas-footer.css";
+import Welcome from "./boas-vindas-welcome";
 
 const BoasVindas = () => {
   return (
     <React.Fragment>
       <Header />
       <main id="main">
+        <Welcome />
         <Indice />
         <OIPB />
         <Faq />
