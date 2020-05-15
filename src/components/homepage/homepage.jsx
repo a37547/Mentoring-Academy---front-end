@@ -6,7 +6,6 @@ import Mentoria from "./homepage-mentoria/homepage-mentoria";
 import Tutoria from "./homepage-tutoria/homepage-tutoria";
 import Workshop from "./homepage-workshop/homepage-workshop";
 import Formacao from "./homepage-formacao/homepage-formacao";
-import "./homepage-formacao/homepage-formacao.css";
 import MoreFeatures from "./homepage-more-features/homepage-more-features";
 import "./homepage-more-features/homepage-more-features.css";
 import Clients from "./homepage-clients/homepage-clients";
