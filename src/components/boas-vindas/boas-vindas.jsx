@@ -1,10 +1,7 @@
 import React from "react";
 import Header from "./boas-vindas-header/boas-vindas-header";
 import "./boas-vindas-header/boas-vindas-header.css";
-import Intro from "./boas-vindas-intro/boas-vindas-intro";
-import "./boas-vindas-intro/boas-vindas-intro.css";
 import Indice from "./boas-vindas-indice/boas-vindas-indice";
-import "./boas-vindas-intro/boas-vindas-intro.css";
 import OIPB from "./boas-vindas-oipb/boas-vindas-oipb";
 import "./boas-vindas-oipb/boas-vindas-oipb.css";
 import Faq from "./boas-vindas-faq/boas-vindas-faq";
@@ -38,7 +35,6 @@ const BoasVindas = () => {
   return (
     <React.Fragment>
       <Header />
-      <Intro />
       <main id="main">
         <Indice />
         <OIPB />

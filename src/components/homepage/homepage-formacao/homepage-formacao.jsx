@@ -4,7 +4,7 @@ import { Image, Row, Col, ListGroup, Container } from "react-bootstrap";
 
 const Formacao = () => {
   return (
-    <React.Fragment>
+    <Container>
       <Row>
         <Col xs={12} lg={6}>
           <Image fluid src={teachers} alt="" />
@@ -106,7 +106,7 @@ const Formacao = () => {
           </Container>
         </Col>
       </Row>
-    </React.Fragment>
+    </Container>
   );
 };
 

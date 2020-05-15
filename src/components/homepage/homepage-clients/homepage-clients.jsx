@@ -4,7 +4,7 @@ import { Image, Row, Col } from "react-bootstrap";
 
 const Clients = () => {
   return (
-    <Row>
+    <Row className="my-5">
       <Col col={12} className="d-flex justify-content-center">
         <Image src={logoipb} alt="" fluid />
       </Col>

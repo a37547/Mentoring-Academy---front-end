@@ -1,35 +1,41 @@
-import React from "react";
-import { Row, Col, ListGroup } from "react-bootstrap";
+import React, { useState } from "react";
+import { Row, Col, ListGroup, Container, Collapse } from "react-bootstrap";
 
 const Faq = () => {
+  const [openFaq1, setOpenFaq1] = useState(false);
+
   return (
-    <React.Fragment>
+    <Container>
       <Row>
         <Col sz={12} className="text-center">
           <h3 className="section-title">Perguntas frequentes</h3>
         </Col>
       </Row>
-      <Row>
+      <Row className="my-4">
         <Col sz={12}>
           <ListGroup>
             <ListGroup.Item>
-              <a data-toggle="collapse" className="collapsed" href="#faq1">
+              <a
+                onClick={() => setOpenFaq1(!openFaq1)}
+                aria-controls="faq1"
+                aria-expanded={openFaq1}
+              >
                 Como posso inscrever-me como tutor?{" "}
                 <i className="ion-android-remove"></i>
               </a>
-              <div id="faq1" className="collapse" data-parent="#faq-list">
-                <p>
-                  Poderá fazer a sua inscrição clicando neste{" "}
-                  <a
-                    href="http://inqueritos.ipb.pt/?r=survey/index/sid/465916/lang/pt"
-                    className="link-faq"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    link
-                  </a>
-                </p>
-              </div>
+              <Collapse in={openFaq1} className="mt-2">
+                <div id="faq1">
+                  <p>
+                    Poderá fazer a sua inscrição clicando neste{" "}
+                    <a
+                      href="http://inqueritos.ipb.pt/?r=survey/index/sid/465916/lang/pt"
+                      target="_blank"
+                    >
+                      link
+                    </a>
+                  </p>
+                </div>
+              </Collapse>
             </ListGroup.Item>
             <ListGroup.Item>
               <a data-toggle="collapse" className="collapsed" href="#faq2">
@@ -91,7 +97,7 @@ const Faq = () => {
           </ListGroup>
         </Col>
       </Row>
-    </React.Fragment>
+    </Container>
   );
 };
 

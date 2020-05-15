@@ -4,6 +4,7 @@ import students1 from "../../../assets/students1.jpg";
 import students2 from "../../../assets/students2.jpg";
 import students3 from "../../../assets/students3.jpg";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
@@ -22,12 +23,10 @@ const Intro = () => {
       </Row>
       <Row className="d-flex justify-content-center mb-3">
         <Col xs={9} sm={8} md={7} lg={5} xl={5}>
-          <Button
-            to={"/boasvindas"}
-            target="_blank"
-            className="bg-transparent border w-100"
-          >
-            Guia de Boas-Vindas e Acolhimento aos novos alunos
+          <Button target="_blank" className="bg-transparent border w-100">
+            <Link to={"/boasvindas"}>
+              Guia de Boas-Vindas e Acolhimento aos novos alunos
+            </Link>
           </Button>
         </Col>
       </Row>

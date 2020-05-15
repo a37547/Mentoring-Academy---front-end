@@ -5,7 +5,7 @@ import { Col, Row, Image, ListGroup, Button, Container } from "react-bootstrap";
 
 const Tutoria = () => {
   return (
-    <React.Fragment>
+    <Container>
       <Row className="my-4">
         <Col sm={12} lg={6} className="d-flex align-items-center">
           <Container>
@@ -33,14 +33,14 @@ const Tutoria = () => {
           <Image fluid src={mentoring1} alt="" />
         </Col>
       </Row>
-      <Row className="my-4">
+      <Row className="d-flex align-items-center">
         <Col sm={12} lg={6}>
           <Image fluid src={mentoring2} alt="" />
         </Col>
         <Col sm={12} lg={6} className="d-flex align-items-center">
           <Container>
-            <h2>Quem se pode candidatar a Tutor?</h2>
-            <ListGroup>
+            <h4>Quem se pode candidatar a Tutor?</h4>
+            <ListGroup className="my-4">
               <ListGroup.Item>
                 Estudantes do 2.º ano dos CTESP (para tutorias nos CTESP)
               </ListGroup.Item>
@@ -65,7 +65,7 @@ const Tutoria = () => {
           </Container>
         </Col>
       </Row>
-    </React.Fragment>
+    </Container>
   );
 };
 

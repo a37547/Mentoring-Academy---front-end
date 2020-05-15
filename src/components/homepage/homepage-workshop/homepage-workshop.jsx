@@ -1,16 +1,16 @@
 import React from "react";
 import students4 from "../../../assets/students4.jpg";
-import { Row, Image, Col, ListGroup } from "react-bootstrap";
+import { Row, Image, Col, ListGroup, Container } from "react-bootstrap";
 
 const Workshop = () => {
   return (
-    <React.Fragment>
+    <Container className="my-5">
       <Row>
         <Col xs={12}>
           <Image fluid src={students4} alt="" />
         </Col>
       </Row>
-      <Row>
+      <Row className="my-4">
         <Col xs={12}>
           <h2>Workshops Mentoring Academy</h2>
           Workshops destinados aos estudantes para o desenvolvimento de
@@ -39,7 +39,7 @@ const Workshop = () => {
           </p>
           <h4>Objectivos</h4>
           No final desta acção, os formandos serão capazes de:
-          <ListGroup>
+          <ListGroup className="mb-3">
             <ListGroup.Item>1. Elaborar objectivos operacionais</ListGroup.Item>
             <ListGroup.Item>
               2. Elaborar um plano de trabalho (mensal, semanal e diário) em
@@ -74,7 +74,7 @@ const Workshop = () => {
           </ListGroup>
         </Col>
       </Row>
-    </React.Fragment>
+    </Container>
   );
 };
 

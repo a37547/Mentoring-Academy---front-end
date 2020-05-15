@@ -5,8 +5,8 @@ import { Row, Col, Image, ListGroup, Button, Container } from "react-bootstrap";
 
 const Mentoria = () => {
   return (
-    <React.Fragment>
-      <Row className="my-4">
+    <Container className="my-5">
+      <Row>
         <Col
           sm={12}
           lg={6}
@@ -51,7 +51,7 @@ const Mentoria = () => {
         <Col className="d-flex align-items-center">
           <Container>
             <h2>Quem se pode candidatar a Mentor?</h2>
-            <ListGroup>
+            <ListGroup className="my-4">
               <ListGroup.Item>
                 Estudantes do 2.º ano dos CTESP (para tutorias nos CTESP)
               </ListGroup.Item>
@@ -66,7 +66,7 @@ const Mentoria = () => {
           </Container>
         </Col>
       </Row>
-    </React.Fragment>
+    </Container>
   );
 };
 
