@@ -1,30 +1,23 @@
 import React from "react";
+import { Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer id="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-3 text-lg-left text-center">
-            <div className="copyright">
-              <strong>Email:</strong> mentoringacademy@ipb.pt
-            </div>
-          </div>
-          <div className="col-lg-9 text-lg-right text-right">
-            <div className="copyright">
-              Template:{" "}
-              <a
-                href="https://bootstrapmade.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                BootstrapMade
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <Row>
+      <Col xs={12} sm={6} className="text-center text-sm-left">
+        <strong>Email:</strong> mentoringacademy@ipb.pt
+      </Col>
+      <Col xs={12} sm={6} className="text-center text-sm-right">
+        Template:{" "}
+        <a
+          href="https://bootstrapmade.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          BootstrapMade
+        </a>
+      </Col>
+    </Row>
   );
 };
 
