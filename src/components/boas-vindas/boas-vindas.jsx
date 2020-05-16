@@ -6,7 +6,6 @@ import "./boas-vindas-indice/boas-vindas-indice.css";
 import OIPB from "./boas-vindas-oipb/boas-vindas-oipb";
 import Faq from "./boas-vindas-faq/boas-vindas-faq";
 import Capacitacao from "./boas-vindas-capacitacao/boas-vindas-capacitacao";
-import "./boas-vindas-capacitacao/boas-vindas-capacitacao.css";
 import Braganca from "./boas-vindas-braganca/boas-vindas-braganca";
 import "./boas-vindas-braganca/boas-vindas-braganca.css";
 import ComoChegar from "./boas-vindas-comochegar/boas-vindas-comochegar";
