@@ -16,7 +16,6 @@ import AssociacoesEstudantes from "./boas-vindas-associacoesestudantes/boas-vind
 import Provedor from "./boas-vindas-provedor/boas-vindas-provedor";
 import AcessoInternet from "./boas-vindas-acessointernet/boas-vindas-acessointernet";
 import PlataformasEletronicas from "./boas-vindas-plataformaseletronicas/boas-vindas-plataformaseletronicas";
-import "./boas-vindas-plataformaseletronicas/boas-vindas-plataformaseletronicas.css";
 import Footer from "./boas-vindas-footer/boas-vindas-footer";
 import "./boas-vindas-footer/boas-vindas-footer.css";
 import Welcome from "./boas-vindas-welcome";
