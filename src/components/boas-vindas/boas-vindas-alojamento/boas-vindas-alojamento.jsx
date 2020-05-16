@@ -1,29 +1,26 @@
 import React from "react";
+import { Jumbotron, Col, Row, ListGroup } from "react-bootstrap";
 
 const Alojamento = () => {
   return (
-    <section id="alojamento" className="section-bg">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div
-              className="wow fadeInRight"
-              //style="visibility: hidden; animation-name: none;"
-            >
-              <p></p>
-              <h2>Alojamento</h2>
-              <h4>Como procurar quarto para arrendar</h4>
-              <p>
-                Podes consultar os anúncios afixados na zona envolvente às
-                matrículas.
-              </p>
-              <p>
-                Procurar por anúncios em sites de classNameificados:
-                <br />
+    <Jumbotron>
+      <Row>
+        <Col xs={12}>
+          <h2>Alojamento</h2>
+          <h4>Como procurar quarto para arrendar</h4>
+          <p>
+            Podes consultar os anúncios afixados na zona envolvente às
+            matrículas.
+          </p>
+          <p>
+            Procurar por anúncios em sites de classificados:
+            <ListGroup>
+              <ListGroup.Item>
                 <a href="www.olx.pt" target="_blank" rel="noopener noreferrer">
                   www.olx.pt
                 </a>
-                <br />
+              </ListGroup.Item>
+              <ListGroup.Item>
                 <a
                   href="www.custojusto.pt"
                   target="_blank"
@@ -31,31 +28,37 @@ const Alojamento = () => {
                 >
                   www.custojusto.pt
                 </a>
-              </p>
-              <h5>Consultar os anúncios nos grupos do Facebook</h5>
-              <h6>Bragança:</h6>
-              <p>
-                Arrendar Quarto/Casa em Bragança:{" "}
-                <a
-                  href="https://www.facebook.com/groups/679998705398883/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  https://www.facebook.com/groups/679998705398883/
-                </a>
-              </p>
-              <p>
-                Casas / Apartamentos / Quartos para arrendar em Bragança:{" "}
-                <a
-                  href="https://www.facebook.com/groups/825421167559767/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  https://www.facebook.com/groups/825421167559767/
-                </a>
-              </p>
-              <h6>Mirandela:</h6>
-              <p>
+              </ListGroup.Item>
+            </ListGroup>
+          </p>
+          <h5>Consultar os anúncios nos grupos do Facebook</h5>
+          <h6>Bragança:</h6>
+          <ListGroup>
+            <ListGroup.Item>
+              Arrendar Quarto/Casa em Bragança:{" "}
+              <a
+                href="https://www.facebook.com/groups/679998705398883/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.facebook.com/groups/679998705398883/
+              </a>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              Casas / Apartamentos / Quartos para arrendar em Bragança:{" "}
+              <a
+                href="https://www.facebook.com/groups/825421167559767/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.facebook.com/groups/825421167559767/
+              </a>
+            </ListGroup.Item>
+          </ListGroup>
+          <h6>Mirandela:</h6>
+          <ListGroup>
+            <ListGroup>
+              <ListGroup.Item>
                 Arrendar quartos em Mirandela (
                 <a
                   href="https://www.facebook.com/Arrendar-quartos-em-Mirandela-781190408633364/"
@@ -65,8 +68,8 @@ const Alojamento = () => {
                   https://www.facebook.com/Arrendar-quartos-em-Mirandela-781190408633364/
                 </a>
                 )
-              </p>
-              <p>
+              </ListGroup.Item>
+              <ListGroup.Item>
                 Procurar Casa em Mirandela:{" "}
                 <a
                   href="https://www.facebook.com/groups/217095715073135/"
@@ -75,28 +78,34 @@ const Alojamento = () => {
                 >
                   https://www.facebook.com/groups/217095715073135/
                 </a>
-              </p>
-              <h5>Imobiliárias em Bragança:</h5>
-              <p>Podes em alternativa contatar as agências imobiliárias.</p>
+              </ListGroup.Item>
+            </ListGroup>
+          </ListGroup>
+          <h5>Imobiliárias em Bragança:</h5>
+          <p>Podes em alternativa contatar as agências imobiliárias.</p>
+          <ListGroup>
+            <ListGroup.Item>
               Predial Imonorte: Telm: 936 736 066, email:
               geral@predialimonorte.pt
-              <br />
+            </ListGroup.Item>
+            <ListGroup.Item>
               Visão Geral: Telm: 919993419, email:
               visaogeralimobiliaria@gmail.com
-              <br />
+            </ListGroup.Item>
+            <ListGroup.Item>
               Predidomus: Telm: 919 703 583, email: geral@predidomus.pt
-              <br />
-              <p></p>
-              <h5>Imobiliárias em Mirandela:</h5>
-              <p>
-                Imobiliária Miradelense: telm: 919 248 210, email:
-                imobmirandelense@sapo.pt
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            </ListGroup.Item>
+          </ListGroup>
+          <h5>Imobiliárias em Mirandela:</h5>
+          <ListGroup>
+            <ListGroup.Item>
+              Imobiliária Miradelense: telm: 919 248 210, email:
+              imobmirandelense@sapo.pt
+            </ListGroup.Item>
+          </ListGroup>
+        </Col>
+      </Row>
+    </Jumbotron>
   );
 };
 

@@ -11,7 +11,6 @@ import ComoChegar from "./boas-vindas-comochegar/boas-vindas-comochegar";
 import Matriculas from "./boas-vindas-matriculas/boas-vindas-matriculas";
 import ServicosSociais from "./boas-vindas-servicossociais/boas-vindas-servicossociais";
 import Alojamento from "./boas-vindas-alojamento/boas-vindas-alojamento";
-import "./boas-vindas-alojamento/boas-vindas-alojamento.css";
 import CartaoEstudante from "./boas-vindas-cartaoestudante/boas-vindas-cartaoestudante";
 import "./boas-vindas-cartaoestudante/boas-vindas-cartaoestudante.css";
 import AssociacoesEstudantes from "./boas-vindas-associacoesestudantes/boas-vindas-associacoesestudantes";
