@@ -8,7 +8,6 @@ import Faq from "./boas-vindas-faq/boas-vindas-faq";
 import Capacitacao from "./boas-vindas-capacitacao/boas-vindas-capacitacao";
 import Braganca from "./boas-vindas-braganca/boas-vindas-braganca";
 import ComoChegar from "./boas-vindas-comochegar/boas-vindas-comochegar";
-import "./boas-vindas-comochegar/boas-vindas-comochegar.css";
 import Matriculas from "./boas-vindas-matriculas/boas-vindas-matriculas";
 import "./boas-vindas-matriculas/boas-vindas-matriculas.css";
 import ServicosSociais from "./boas-vindas-servicossociais/boas-vindas-servicossociais";
