@@ -15,7 +15,6 @@ import CartaoEstudante from "./boas-vindas-cartaoestudante/boas-vindas-cartaoest
 import AssociacoesEstudantes from "./boas-vindas-associacoesestudantes/boas-vindas-associacoesestudantes";
 import Provedor from "./boas-vindas-provedor/boas-vindas-provedor";
 import AcessoInternet from "./boas-vindas-acessointernet/boas-vindas-acessointernet";
-import "./boas-vindas-acessointernet/boas-vindas-acessointernet.css";
 import PlataformasEletronicas from "./boas-vindas-plataformaseletronicas/boas-vindas-plataformaseletronicas";
 import "./boas-vindas-plataformaseletronicas/boas-vindas-plataformaseletronicas.css";
 import Footer from "./boas-vindas-footer/boas-vindas-footer";
