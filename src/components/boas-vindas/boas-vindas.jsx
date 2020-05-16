@@ -14,7 +14,6 @@ import Alojamento from "./boas-vindas-alojamento/boas-vindas-alojamento";
 import CartaoEstudante from "./boas-vindas-cartaoestudante/boas-vindas-cartaoestudante";
 import AssociacoesEstudantes from "./boas-vindas-associacoesestudantes/boas-vindas-associacoesestudantes";
 import Provedor from "./boas-vindas-provedor/boas-vindas-provedor";
-import "./boas-vindas-provedor/boas-vindas-provedor.css";
 import AcessoInternet from "./boas-vindas-acessointernet/boas-vindas-acessointernet";
 import "./boas-vindas-acessointernet/boas-vindas-acessointernet.css";
 import PlataformasEletronicas from "./boas-vindas-plataformaseletronicas/boas-vindas-plataformaseletronicas";
