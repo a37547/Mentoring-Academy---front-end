@@ -1,18 +1,13 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer id="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12 text-lg-left text-center">
-            <div className="copyright">
-              <strong>Email:</strong> giape@ipb.pt
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <Row>
+      <Col xs={12} className="py-4 border-top">
+        <strong>Email:</strong> giape@ipb.pt
+      </Col>
+    </Row>
   );
 };
 
