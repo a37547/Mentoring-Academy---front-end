@@ -3,9 +3,9 @@ import { Row, Col, ListGroup } from "react-bootstrap";
 
 const Indice = () => {
   return (
-    <Row className="d-flex justify-content-center">
+    <Row className="d-flex justify-content-center my-3">
       <Col xs={12} sm={10}>
-        <h3 className="section-title">Índice</h3>
+        <h3 className="text-center">Índice</h3>
         <p>
           Este guia pretende sintetizar informação útil para os novos alunos do
           IPB, sendo disponibilizadas ligações para páginas com informação mais

@@ -1,6 +1,6 @@
 import React from "react";
-import mentoring1 from "../../../assets/mentoring-1.jpg";
-import mentoring2 from "../../../assets/mentoring-2.jpg";
+import mentoring1 from "../../assets/mentoring-1.jpg";
+import mentoring2 from "../../assets/mentoring-2.jpg";
 import { Col, Row, Image, ListGroup, Button, Container } from "react-bootstrap";
 
 const Tutoria = () => {
@@ -9,7 +9,7 @@ const Tutoria = () => {
       <Row className="my-4">
         <Col sm={12} lg={6} className="d-flex align-items-center">
           <Container>
-            <h2>PROGRAMA TUTORIAS POR PARES</h2>
+            <h2 className="text-center">PROGRAMA TUTORIAS POR PARES</h2>
             <p>
               As tutorias (acompanhamento e apoio pedagógico) são desenvolvidas
               com o apoio voluntário de estudantes, docentes no ativo, docentes
@@ -29,17 +29,17 @@ const Tutoria = () => {
             </p>
           </Container>
         </Col>
-        <Col sm={12} lg={6}>
+        <Col sm={12} lg={6} className="d-flex">
           <Image fluid src={mentoring1} alt="" />
         </Col>
       </Row>
-      <Row className="d-flex align-items-center">
-        <Col sm={12} lg={6}>
+      <Row className="d-flex mt-lg-5">
+        <Col sm={12} lg={6} className="d-flex">
           <Image fluid src={mentoring2} alt="" />
         </Col>
-        <Col sm={12} lg={6} className="d-flex align-items-center">
+        <Col sm={12} lg={6} className="d-flex align-items-center mt-4 mt-lg-0">
           <Container>
-            <h4>Quem se pode candidatar a Tutor?</h4>
+            <h4 className="text-center">Quem se pode candidatar a Tutor?</h4>
             <ListGroup className="my-4">
               <ListGroup.Item>
                 Estudantes do 2.º ano dos CTESP (para tutorias nos CTESP)
@@ -57,6 +57,7 @@ const Tutoria = () => {
             </ListGroup>
 
             <Button
+              className="w-100"
               to="http://inqueritos.ipb.pt/?r=survey/index/sid/465916/lang/pt"
               target="_blank"
             >

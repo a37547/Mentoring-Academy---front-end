@@ -1,11 +1,11 @@
 import React from "react";
-import { Jumbotron, Col, Row, ListGroup } from "react-bootstrap";
+import { Jumbotron, Col, Row, ListGroup, Container } from "react-bootstrap";
 
 const Alojamento = () => {
   return (
     <Jumbotron>
-      <Row>
-        <Col xs={12}>
+      <Row className="d-flex justify-content-center">
+        <Col xs={12} sm={10}>
           <h2>Alojamento</h2>
           <h4>Como procurar quarto para arrendar</h4>
           <p>
@@ -14,7 +14,7 @@ const Alojamento = () => {
           </p>
           <p>
             Procurar por anúncios em sites de classificados:
-            <ListGroup>
+            <ListGroup className="my-4">
               <ListGroup.Item>
                 <a href="www.olx.pt" target="_blank" rel="noopener noreferrer">
                   www.olx.pt
@@ -33,7 +33,7 @@ const Alojamento = () => {
           </p>
           <h5>Consultar os anúncios nos grupos do Facebook</h5>
           <h6>Bragança:</h6>
-          <ListGroup>
+          <ListGroup className="my-4">
             <ListGroup.Item>
               Arrendar Quarto/Casa em Bragança:{" "}
               <a
@@ -56,7 +56,7 @@ const Alojamento = () => {
             </ListGroup.Item>
           </ListGroup>
           <h6>Mirandela:</h6>
-          <ListGroup>
+          <ListGroup className="my-4">
             <ListGroup>
               <ListGroup.Item>
                 Arrendar quartos em Mirandela (
@@ -83,7 +83,7 @@ const Alojamento = () => {
           </ListGroup>
           <h5>Imobiliárias em Bragança:</h5>
           <p>Podes em alternativa contatar as agências imobiliárias.</p>
-          <ListGroup>
+          <ListGroup className="my-4">
             <ListGroup.Item>
               Predial Imonorte: Telm: 936 736 066, email:
               geral@predialimonorte.pt
@@ -97,7 +97,7 @@ const Alojamento = () => {
             </ListGroup.Item>
           </ListGroup>
           <h5>Imobiliárias em Mirandela:</h5>
-          <ListGroup>
+          <ListGroup className="my-4">
             <ListGroup.Item>
               Imobiliária Miradelense: telm: 919 248 210, email:
               imobmirandelense@sapo.pt

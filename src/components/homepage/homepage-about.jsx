@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../../../assets/about-img.jpg";
+import about from "../../assets/about-img.jpg";
 import {
   Row,
   Col,
@@ -38,13 +38,13 @@ const About = () => {
           </Jumbotron>
         </Col>
       </Row>
-      <Container>
-        <Row>
-          <Col sm={12} lg={6} className="d-flex align-items-center">
+      <Container className="text-center">
+        <h2>Objetivos</h2>
+        <Row className="mt-4">
+          <Col sm={12} lg={6} className="d-flex align-items-center p-0 ">
             <Image src={about} alt="" fluid />
           </Col>
-          <Col className="mt-3 text-center text-lg-left" sm={12} lg={6}>
-            <h2>Objetivos</h2>
+          <Col className="text-center text-lg-left mt-4 mt-lg-0" sm={12} lg={6}>
             <ListGroup>
               <ListGroup.Item>
                 Promover a adaptação dos estudantes ao ensino superior e, de

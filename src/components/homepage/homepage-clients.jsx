@@ -1,5 +1,5 @@
 import React from "react";
-import logoipb from "../../../assets/logo-ipb.png";
+import logoipb from "../../assets/logo-ipb.png";
 import { Image, Row, Col } from "react-bootstrap";
 
 const Clients = () => {

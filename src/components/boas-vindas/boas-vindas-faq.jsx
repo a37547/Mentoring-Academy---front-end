@@ -6,7 +6,9 @@ const Faq = () => {
     <Container>
       <Row>
         <Col sm={12}>
-          <h4>Composição da presidência do IPB</h4>
+          <h4 id="title" className="text-center mb-4">
+            Composição da presidência do IPB
+          </h4>
           <p>
             O Presidente do Instituto Politécnico de Bragança (IPB) é o órgão
             superior de governo e de representação externa do Instituto.
@@ -19,11 +21,11 @@ const Faq = () => {
             dos Serviços de Ação Social.
           </p>
           <h5>Presidente</h5>
-          <ListGroup>
+          <ListGroup className="my-3">
             <ListGroup.Item>Orlando Isidoro Afonso Rodrigues</ListGroup.Item>
           </ListGroup>
           <h5>Vice-Presidentes</h5>
-          <ListGroup>
+          <ListGroup className="my-3">
             <ListGroup.Item>Luis Manuel Santos Pais</ListGroup.Item>
             <ListGroup.Item>Albano Agostinho Gomes Alves</ListGroup.Item>
             <ListGroup.Item>
@@ -31,7 +33,7 @@ const Faq = () => {
             </ListGroup.Item>
           </ListGroup>
           <h5>Pró-Presidentes</h5>
-          <ListGroup>
+          <ListGroup className="my-3">
             <ListGroup.Item>Anabela Rodrigues Lourenço Martins</ListGroup.Item>
             <ListGroup.Item>
               Dina da Conceicao Jeronimo Rodrigues Macias
@@ -40,23 +42,23 @@ const Faq = () => {
             <ListGroup.Item>Vera Ferro Lebres</ListGroup.Item>
           </ListGroup>
           <h5>Provedor do Estudante</h5>
-          <ListGroup>
+          <ListGroup className="my-3">
             <ListGroup.Item>Maria Augusta Pereira Mata</ListGroup.Item>
           </ListGroup>
           <h5>Administrador</h5>
-          <ListGroup>
+          <ListGroup className="my-3">
             <ListGroup.Item>
               Elisabete Vicente Viegas Morgadinho Madeira Camelo
             </ListGroup.Item>
           </ListGroup>
           <h5>Administrador dos Serviços de Ação Social</h5>
-          <ListGroup>
+          <ListGroup className="my-3">
             <ListGroup.Item>
               Elisabete Vicente Viegas Morgadinho Madeira Camelo
             </ListGroup.Item>
           </ListGroup>
           <h4>Composição das direções das Escolas</h4>
-          <ListGroup>
+          <ListGroup className="my-3">
             <ListGroup.Item>
               <li>
                 <a data-toggle="collapse" className="collapsed" href="#faq1">

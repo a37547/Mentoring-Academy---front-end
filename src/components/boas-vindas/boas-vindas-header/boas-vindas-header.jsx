@@ -15,18 +15,24 @@ const Header = () => {
           </a>
         </Col>
         <Col xs={12}>
-          <div className="text-center">
+          <div className="text-center text-white">
             <h2>Guia de Boas-Vindas e Acolhimento aos Novos Alunos</h2>
             <p>Instituto Politécnico de Bragança</p>
           </div>
           <Row className="mt-3 d-flex justify-content-center">
-            <Col className="d-none d-md-flex align-items-end justify-content-end">
-              <Image src={students3} alt="" fluid className="image" />
-            </Col>
-            <Col className="d-none d-md-flex align-items-end justify-content-center">
-              <Image src={students2} alt="" fluid />
-            </Col>
-            <Col className="d-flex align-items-end justify-content-center justify-content-md-start">
+            <Col className="d-flex justify-content-center align-items-end">
+              <Image
+                src={students3}
+                alt=""
+                fluid
+                className="d-none d-lg-flex"
+              />
+              <Image
+                src={students2}
+                alt=""
+                fluid
+                className="d-none d-md-flex"
+              />
               <Image src={students1} alt="" fluid />
             </Col>
           </Row>

@@ -7,3 +7,11 @@
     url(../../../assets/intro-bg.jpg) center top no-repeat;
   background-size: cover;
 }
+
+.btn-hover {
+  color: white !important;
+}
+
+.link {
+  text-decoration: none;
+}

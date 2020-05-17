@@ -1,19 +1,19 @@
 import React from "react";
-import tutoring1 from "../../../assets/tutoring-1.jpg";
-import tutoring2 from "../../../assets/tutoring-2.jpg";
+import tutoring1 from "../../assets/tutoring-1.jpg";
+import tutoring2 from "../../assets/tutoring-2.jpg";
 import { Row, Col, Image, ListGroup, Button, Container } from "react-bootstrap";
 
 const Mentoria = () => {
   return (
     <Container className="my-5">
-      <Row>
+      <h2 className="text-center">PROGRAMA MENTORIAS</h2>
+      <Row className="my-5">
         <Col
           sm={12}
           lg={6}
           className="d-flex align-items-center justify-content-center"
         >
           <Container>
-            <h2>PROGRAMA MENTORIAS</h2>
             <p>
               Destina-se aos estudantes do 1.º ano que ingressam no IPB. É-lhes
               atribuído um Mentor (estudante do curso no 2.º ou 3.º ano ou mesmo
@@ -34,7 +34,7 @@ const Mentoria = () => {
             </p>
           </Container>
         </Col>
-        <Col sm={12} lg={6}>
+        <Col sm={12} lg={6} className="d-flex">
           <Image
             fluid
             src={tutoring1}
@@ -45,12 +45,9 @@ const Mentoria = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm={12} lg={6}>
-          <Image fluid src={tutoring2} alt="" className="w-100" />
-        </Col>
         <Col className="d-flex align-items-center">
           <Container>
-            <h2>Quem se pode candidatar a Mentor?</h2>
+            <h2 className="text-center">Quem se pode candidatar a Mentor?</h2>
             <ListGroup className="my-4">
               <ListGroup.Item>
                 Estudantes do 2.º ano dos CTESP (para tutorias nos CTESP)
@@ -60,10 +57,16 @@ const Mentoria = () => {
               </ListGroup.Item>
               <ListGroup.Item>Estudantes de Mestrado</ListGroup.Item>
             </ListGroup>
-            <Button to="http://inqueritos.ipb.pt/?r=survey/index/sid/571475/lang/pt">
+            <Button
+              className="w-100"
+              to="http://inqueritos.ipb.pt/?r=survey/index/sid/571475/lang/pt"
+            >
               Inscrição de Mentores
             </Button>
           </Container>
+        </Col>
+        <Col sm={12} lg={6} className="d-flex mt-4 mt-lg-0">
+          <Image fluid src={tutoring2} alt="" className="w-100" />
         </Col>
       </Row>
     </Container>
