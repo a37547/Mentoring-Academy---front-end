@@ -24,7 +24,11 @@ const Workshop = () => {
           <p>
             Inscrições Encerradas. Poderá inscrever-se em uma próxima edição do
             workshop em:{" "}
-            <a href="http://bit.ly/2Tv5zrY" target="_blank">
+            <a
+              href="http://bit.ly/2Tv5zrY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               http://bit.ly/2Tv5zrY
             </a>
           </p>

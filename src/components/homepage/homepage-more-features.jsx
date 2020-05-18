@@ -6,7 +6,11 @@ const MoreFeatures = () => {
     <Container className="my-5">
       <Row>
         <Col sm={12} className="text-center">
-          <a href="https://doodle.com/poll/f4etdykg2igr9m9t" target="_blank">
+          <a
+            href="https://doodle.com/poll/f4etdykg2igr9m9t"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3>Funcionalidades da Plataforma (em desenvolvimento)</h3>
             <p>
               O sistema irá englobar funcionalidades nas perspectivas de tutor,
@@ -23,6 +27,7 @@ const MoreFeatures = () => {
                 <a
                   href="https://doodle.com/poll/f4etdykg2igr9m9t"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   ICON
                 </a>
@@ -40,6 +45,7 @@ const MoreFeatures = () => {
                 <a
                   href="https://doodle.com/poll/f4etdykg2igr9m9t"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   ICON
                 </a>
@@ -57,6 +63,7 @@ const MoreFeatures = () => {
                 <a
                   href="https://doodle.com/poll/f4etdykg2igr9m9t"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   ICON
                 </a>
@@ -76,6 +83,7 @@ const MoreFeatures = () => {
                 <a
                   href="https://doodle.com/poll/f4etdykg2igr9m9t"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   ICON
                 </a>

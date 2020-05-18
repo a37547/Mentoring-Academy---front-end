@@ -3,7 +3,7 @@ import Navbar from "../navbar/navbar";
 import "../navbar/navbar.css";
 import "./entrar.css";
 import { Link } from "react-router-dom";
-import { Form, Row, Col, Button, Container } from "react-bootstrap";
+import { Form, Col, Button, Container } from "react-bootstrap";
 
 const Entrar = () => {
   return (

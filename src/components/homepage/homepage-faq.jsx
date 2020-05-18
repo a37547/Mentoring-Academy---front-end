@@ -16,6 +16,7 @@ const Faq = () => {
           <ListGroup>
             <ListGroup.Item>
               <a
+                href="#so"
                 onClick={() => setOpenFaq1(!openFaq1)}
                 aria-controls="faq1"
                 aria-expanded={openFaq1}
@@ -30,6 +31,7 @@ const Faq = () => {
                     <a
                       href="http://inqueritos.ipb.pt/?r=survey/index/sid/465916/lang/pt"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       link
                     </a>

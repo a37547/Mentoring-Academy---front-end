@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Col, Row, ListGroup, Container } from "react-bootstrap";
+import { Jumbotron, Col, Row, ListGroup } from "react-bootstrap";
 
 const Alojamento = () => {
   return (
