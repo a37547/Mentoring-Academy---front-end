@@ -4,22 +4,30 @@ import { Link } from "react-router-dom";
 import "./registar.css";
 import { Form, Col, Button } from "react-bootstrap";
 import { getGenres, getFirstGenre } from "../../genders";
+import { getNationalities, getFirstNationality } from "../../nationalities";
 
 class Registar extends Component {
   state = {
     user: {
       username: "",
       genre: getFirstGenre().name,
-      nacionalidade: "",
+      nationality: getFirstNationality().name,
       birthdate: "",
       password: "",
     },
     genders: getGenres(),
+    nationalities: getNationalities(),
   };
 
   handleUsernameChange = (event) => {
     let user = { ...this.state.user };
     user.username = event.target.value;
+    this.setState({ user: user });
+  };
+
+  handleNationalityChange = (event) => {
+    let user = { ...this.state.user };
+    user.nationality = event.target.value;
     this.setState({ user: user });
   };
 
@@ -73,10 +81,10 @@ class Registar extends Component {
             </Form.Group>
             <Form.Group controlId="exampleForm.ControlSelect2">
               <Form.Label>Nacionalidade</Form.Label>
-              <Form.Control as="select">
-                <option>Brasil</option>
-                <option>Portugal</option>
-                <option>Rússia</option>
+              <Form.Control as="select" onChange={this.handleNationalityChange}>
+                {this.state.nationalities.map((nationality) => (
+                  <option key={nationality.name}>{nationality.name}</option>
+                ))}
               </Form.Control>
             </Form.Group>
             <Form.Group controlId="exampleForm.ControlSelect3">
